@@ -6,6 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  turbopack: {
+    root: '/home/igorbondiman/Codes/SSSR/misc/pader-cumpleanos/cumpleanos-padre',
+  },
+  productionBrowserSourceMaps: false,
 }
 
 export default nextConfig
